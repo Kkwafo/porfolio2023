@@ -1,0 +1,293 @@
+
+/* Elementos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: list-item;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* APP */
+/* Proyects */
+
+body{
+  background-color: #bbb;
+}
+
+
+.cardConteiner{
+   
+  /* display: flexbox; */
+  width:auto;
+  border: 1px solid #bbb;
+  background: rgba(238, 243, 242, 0.952);
+  margin-top: 10px;
+  align-items: center;
+  text-align: center;
+  display: flex;  
+  justify-content: center;
+  max-height: auto;
+}
+/* AboutMe */
+
+.AboutMe{
+  background-color: rgb(232, 241, 241);
+  position: relative;
+  padding: 10px;
+  margin: 50px -5px 10px;
+  text-align: center;
+}
+
+.textAboutMe {
+  font-size:large;
+}
+
+/* Card */
+
+.cardDiv {
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
+  border-width: 2px;
+  overflow: hidden;
+  --tw-border-opacity: 1;
+  border-color: rgb(28 25 23 / var(--tw-border-opacity));
+ padding: 10px;
+ width: 400px;
+  height: 400px;
+  margin-top: 16px;
+  float: left;
+  text-align: center;
+  }
+
+  /* .img
+    {margin-left: none;
+      padding: 5%;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  size-adjust: 1%;
+  border: 1px solid #cff5e5;
+  background: #ddd;
+  background-color: #5af02d;
+
+  } */
+
+  .cardTitle {
+    font-size:larger;
+    font-family: "Montserrat";
+    font-weight: bolder;
+  }
+
+  .imgCard
+  {padding-bottom: 5%;
+    height: 250px;
+    width: 250px;
+  }.pCard{
+    font-family: "Montserrat";
+  }
+/* Contact me */
+
+.contactMe{
+  background-color: rgba(171, 172, 170, 0.397);
+  padding: 1px;
+  margin: 5px -5px;
+
+}
+
+.contactBox{
+  display: flex;
+  margin-bottom: 10;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+
+.contactForm{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+.formC{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.inputContact{
+padding:2px;
+background-color: transparent;
+border: 2px;
+border-radius: 2px; 
+outline: #262c36;
+margin-bottom: 2px;
+
+} 
+
+.textContact {
+  padding: 2px;
+  margin-bottom: 4px;
+  background: transparent;
+  outline: none;
+}
+
+.buttonContact {
+  text-anchor: unset;
+  font-weight: 900;
+  font-size: 4rem;
+  text-align: center;
+  display: inline-block;
+  padding-right: auto;
+  padding-left: auto;
+  font-size: xx-large;
+  border-radius: 0.375rem;
+  color: rgb(255 255 255);
+  background: linear-gradient(0.25turn, #fa5afa, #ee1d5c, #000000);
+
+/* filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); */}
+
+.buttonContact:hover { background:linear-gradient(0.25turn,#000000 , #ee1d5c, #fa5afa)}
+ 
+.buttonContact:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.mail{
+  color: #eef3f7;
+  text-decoration: none;
+  font-family: "Monserrat";
+  font-style: italic ;
+  font-variant: small-caps slashed-zero;
+
+}
+
+/* footer */
+footer {
+ 
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  margin-block-end: 2px;
+  margin-block-start: 8px;
+}
+h3 {text-decoration:underline;}
+/* Greatings */
+.Greetings{
+  background-color: #eef3f7;
+  position: relative;
+  text-align: center;
+
+  margin: 40px auto 34px;
+  box-shadow: 3px solid #262c36;
+  /* shadow:outset; */
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+
+/* Header */
+
+  header {
+    background-color: #52616B;
+    margin: auto -5px;
+    padding: 4px;
+    box-shadow: 0 0 10px 0 rgb(174, 189, 202);
+    
+  }
+  /* navbar inside header*/
+  .Lenguage{
+    margin-left: auto;
+  }
+
+/* Icon */
+
+.IconDiv{
+  margin-top: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.iconImg{
+  border-radius: 40%;
+height: 60px;
+width: 60px;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.IconText{
+  text-align: center;
+  margin-left: auto;
+  }
+  
+/* My knows */
+.KnowsTitle{
+  text-align: center;
+}
+.Icons{
+  margin-top: 10px;
+  width:auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+
+}
+
+/* My skills */
+
+.table-skills{
+  align-items: center;
+  justify-content: center;
+  max-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 100px;
+ 
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;}
+  @media screen and (max-width: 900px) {
+    .table-skills {
+      flex-direction:column;
+    }
+  }
+  
+
+.table{
+  margin-top: 20px;
+  border-style: groove;
+  border: #52616B 2px solid;
+  width: 50%;
+  
+ 
+}
+.educacion{
+  background-color: whitesmoke;
+  height: 300px;
+  border-style: groove;
+  width: 50%;
+
+}
+.cursos{
+  background-color: whitesmoke;
+  height: 300px;
+  border-style: groove;
+}
+
+
+
