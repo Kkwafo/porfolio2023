@@ -46,7 +46,7 @@ const CardInfo = [
         ImgUrl : "https://i.postimg.cc/hGmsqp8V/Newslatter.jpg",
         alt: "Card img",
         ContentEng : " Express.js - Node.js - EJS  ",
-        href:"https://tranquil-everglades-62671.herokuapp.com/"
+        href:"https://handsome-slip-newt.cyclic.app/"
     
     },
 
@@ -55,7 +55,7 @@ const CardInfo = [
         alt:"Card img",
         ImgUrl : "https://i.postimg.cc/j5rXqPvm/todoList.jpg",
         ContentEng : "Express.js Node.js Mongo-Atlas DB ",
-        href:"https://hidden-woodland-50251.herokuapp.com/"
+        href:"https://jolly-bat-tux.cyclic.app/"
     
     },
 
