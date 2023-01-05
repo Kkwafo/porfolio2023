@@ -168,7 +168,7 @@ margin-bottom: 2px;
 .mail{
   color: #eef3f7;
   text-decoration: none;
-  font-family: "Monserrat";
+  font-family: "Lato";
   font-style: italic ;
   font-variant: small-caps slashed-zero;
 
@@ -261,7 +261,7 @@ margin-top: 10px;
   display: flex;
   flex-direction: row;
   margin-left: 10px;}
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1250px) {
     .table-skills {
       flex-direction:column;
     }
