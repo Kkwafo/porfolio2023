@@ -3,16 +3,14 @@ import React from "react";
 function AboutMe() {
   return (
     <div className="AboutMe">
-      <h1> Un poco sobre mi</h1>
+      <h1> About Me</h1>
       <p className="textAboutMe">
-        Soy una persona divertida y motivado. {""}Disfruto ser parte de un
-        equipo, soy de aprendizaje rápido y resolución de problemas. Apasionado
-        en crear aplicaciones web. <br></br>
-        Siempre con muchas ganas de aprender de los que me rodean con el
-        objetivo de mejorar mis habilidades, ser útil y brindar mi apoyo.{" "}
-        <br></br>
-        Quiero crecer en mi carrera y tener la oportunidad de aprender y
-        trabajar con diferentes tecnologías.
+        Funny and motivated person. {""} I enjoy being part of a team, fast at
+        learning and solving problems. Passionate about creating web
+        applications.<br></br>
+        Always eager to learn from anyone with the objective of improving my
+        skills and be helpful. <br></br> I want to grow up in my career and to
+        have the opportunity to learn and work with different technologies
       </p>
     </div>
   );

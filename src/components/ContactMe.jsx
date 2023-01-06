@@ -3,11 +3,11 @@ import React from "react";
 function ContactMe() {
   return (
     <div className="contactBox">
-      <h3>Contacta con migo a travez de: </h3>
+      <h3>Contact me through Email, Github or Linkedin</h3>
       <div className="contactForm">
         <button type="button" className="buttonContact">
           <a className="mail" href="mailto:kofikwafoawua@gmail.com">
-            Envia un email
+            Send email
           </a>
         </button>
       </div>

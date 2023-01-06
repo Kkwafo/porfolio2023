@@ -5,8 +5,8 @@ import CardsInfo from "./AppInfo/CardsInfo.js";
 function Proyects() {
   return (
     <div>
-      <h1>Mis Proyectos </h1>
-      <p>Puedes hacer click en las imagenes para ver los proyectos</p>
+      <h1>My Projects </h1>
+      <p>You can click on the images to visit the deployed projects.</p>
       <ul>
         <li>
           {CardsInfo.map((CardInfo) => {

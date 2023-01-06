@@ -1,47 +1,61 @@
-
 /* Elementos */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat";
   line-height: 1.5;
   font-weight: bold;
-  text-align: center;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: list-item;
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: list-item;
+  list-style: none;
 }
+
 p {
   color: #8f8f8f;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: rgb(1, 54, 34);
 }
 
 /* APP */
 /* Proyects */
 
-body{
+body {
   background-color: #bbb;
 }
 
-
-.cardConteiner{
-   
+.cardConteiner {
   /* display: flexbox; */
-  width:auto;
-  border: 1px solid #bbb;
-  background: rgba(238, 243, 242, 0.952);
+  width: auto;
+  /* border: 1px solid #bbb; */
+  /* background: rgba(238, 243, 242, 0.952); */
   margin-top: 10px;
   align-items: center;
   text-align: center;
-  display: flex;  
+  display: flex;
   justify-content: center;
   max-height: auto;
 }
 /* AboutMe */
 
-.AboutMe{
-  background-color: rgb(232, 241, 241);
+.AboutMe {
+  background-color: #eef3f7;
   position: relative;
   padding: 10px;
   margin: 50px -5px 10px;
@@ -49,7 +63,7 @@ body{
 }
 
 .textAboutMe {
-  font-size:large;
+  font-size: large;
 }
 
 /* Card */
@@ -62,15 +76,15 @@ body{
   overflow: hidden;
   --tw-border-opacity: 1;
   border-color: rgb(28 25 23 / var(--tw-border-opacity));
- padding: 10px;
- width: 400px;
+  padding: 10px;
+  width: 400px;
   height: 400px;
   margin-top: 16px;
   float: left;
   text-align: center;
-  }
+}
 
-  /* .img
+/* .img
     {margin-left: none;
       padding: 5%;
   border-radius: 50%;
@@ -83,58 +97,58 @@ body{
 
   } */
 
-  .cardTitle {
-    font-size:larger;
-    font-family: "Montserrat";
-    font-weight: bolder;
-  }
+.cardTitle {
+  font-size: larger;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
 
-  .imgCard
-  {padding-bottom: 5%;
-    height: 250px;
-    width: 250px;
-  }.pCard{
-    font-family: "Montserrat";
-  }
+.imgCard {
+  padding-bottom: 5%;
+  height: 250px;
+  width: 250px;
+}
+.pCard {
+  font-family: "Montserrat";
+}
 /* Contact me */
 
-.contactMe{
+.contactMe {
   background-color: rgba(171, 172, 170, 0.397);
   padding: 1px;
   margin: 5px -5px;
-
 }
 
-.contactBox{
+.contactBox {
   display: flex;
   margin-bottom: 10;
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
+  padding: 0 2rem;
+  align-items: center;
+  align-content: center;
 }
 
-.contactForm{
+.contactForm {
   display: flex;
   justify-content: center;
   justify-items: center;
 }
 
-
-.formC{
+.formC {
   display: flex;
   flex-direction: column;
-  
 }
 
-.inputContact{
-padding:2px;
-background-color: transparent;
-border: 2px;
-border-radius: 2px; 
-outline: #262c36;
-margin-bottom: 2px;
-
-} 
+.inputContact {
+  padding: 2px;
+  background-color: transparent;
+  border: 2px;
+  border-radius: 2px;
+  outline: #262c36;
+  margin-bottom: 2px;
+}
 
 .textContact {
   padding: 2px;
@@ -156,138 +170,148 @@ margin-bottom: 2px;
   color: rgb(255 255 255);
   background: linear-gradient(0.25turn, #fa5afa, #ee1d5c, #000000);
 
-/* filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); */}
+  /* filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); */
+}
 
-.buttonContact:hover { background:linear-gradient(0.25turn,#000000 , #ee1d5c, #fa5afa)}
- 
+.buttonContact:hover {
+  background: linear-gradient(0.25turn, #000000, #ee1d5c, #fa5afa);
+}
+
 .buttonContact:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-.mail{
+.mail {
   color: #eef3f7;
   text-decoration: none;
   font-family: "Lato";
-  font-style: italic ;
+  font-style: italic;
   font-variant: small-caps slashed-zero;
-
 }
 
 /* footer */
 footer {
- 
   text-align: center;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
   margin-block-end: 2px;
   margin-block-start: 8px;
+  background: #eef3f7;
+  border-top: 1px solid #cccccc;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 1rem;
 }
-h3 {text-decoration:underline;}
+h3 {
+  text-decoration: underline;
+}
 /* Greatings */
-.Greetings{
+.Greetings {
   background-color: #eef3f7;
   position: relative;
   text-align: center;
 
-  margin: 40px auto 34px;
+  padding: 2rem 0;
   box-shadow: 3px solid #262c36;
   /* shadow:outset; */
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
-
 
 /* Header */
 
-  header {
-    background-color: #52616B;
-    margin: auto -5px;
-    padding: 4px;
-    box-shadow: 0 0 10px 0 rgb(174, 189, 202);
-    
-  }
-  /* navbar inside header*/
-  .Lenguage{
-    margin-left: auto;
-  }
+header {
+  background-color: #52616b;
+  margin: auto -5px;
+  padding: 4px;
+  box-shadow: 0 0 10px 0 rgb(174, 189, 202);
+}
+/* navbar inside header*/
+.Lenguage {
+  margin-left: auto;
+}
 
 /* Icon */
 
-.IconDiv{
+.IconDiv {
   margin-top: 15px;
   align-items: center;
   text-align: center;
 }
 
-.iconImg{
+.iconImg {
   border-radius: 40%;
-height: 60px;
-width: 60px;
-margin-left: 10px;
-margin-top: 10px;
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
-.IconText{
+.IconText {
   text-align: center;
   margin-left: auto;
-  }
-  
+}
+
 /* My knows */
-.KnowsTitle{
+.KnowsTitle {
   text-align: center;
 }
-.Icons{
+.Icons {
   margin-top: 10px;
-  width:auto;
+  width: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 /* My skills */
 
-.table-skills{
+.table-skills {
   align-items: center;
   justify-content: center;
   max-height: auto;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   margin-bottom: 30px;
   margin-top: 100px;
- 
+
   display: flex;
   flex-direction: row;
-  margin-left: 10px;}
-  @media screen and (max-width: 1250px) {
-    .table-skills {
-      flex-direction:column;
-    }
+  margin-left: 10px;
+}
+@media screen and (max-width: 1250px) {
+  .table-skills {
+    flex-direction: column;
   }
-  
+}
 
-.table{
+.table {
   margin-top: 20px;
   border-style: groove;
-  border: #52616B 2px solid;
+  border: #52616b 2px solid;
   width: 50%;
-  
- 
 }
-.educacion{
-  background-color: whitesmoke;
+.educacion {
+  /* background-color: rgb(240, 242, 250); */
   height: 300px;
-  border-style: groove;
-  width: 50%;
-
+  flex-basis: 50%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.cursos{
-  background-color: whitesmoke;
+.cursos {
+  /* background-color: rgb(240, 242, 250); */
   height: 300px;
-  border-style: groove;
+  flex-basis: 50%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-
-
+.cursos > h3,
+.educacion > h3 {
+  padding: 0 1rem;
+}

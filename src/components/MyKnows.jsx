@@ -5,9 +5,7 @@ import Icon from "./Icon";
 function MyKnows() {
   return (
     <div>
-      <h3 className="KnowsTitle">
-        Conocimientos en las siguientes tecnologias
-      </h3>
+      <h3 className="KnowsTitle">Technical IT skills and technology</h3>
       <div>
         <ul>
           <li className="Icons">
